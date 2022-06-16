@@ -1,0 +1,138 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+  width: 100%;
+  height: 50px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+#input-lastname {
+  display: inline-block;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-login button {
+  display: flex;
+  margin-right: 10px;
+  background-color: purple;
+  padding: 8px;
+  width: 100px;
+  border-radius: 8px;
+  color: white;
+  justify-content: center;
+}
+
+.trybewarts-login input {
+  display: flex;
+  margin-right: 10px;
+  background-color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+}
+
+main {
+  display: flex;
+}
+
+#preferences {
+  display: flex;
+  flex-direction: row;
+}
+
+#families {
+  margin: 5px 20px;
+}
+
+#tools {
+  margin: 5px 20px;
+}
+
+#grade {
+  display: flex;
+}
+
+hr {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+#submit-btn {
+  color: white;
+  font-weight: 600;
+  background-color: rgb(90, 13, 161);
+}
+
+#counter {
+  font-style: italic;
+  text-align: right;
+  padding-right: 20px;
+}
+
+footer {
+  color: white;
+  background-color: rgb(70, 69, 69);
+  text-align: center;
+  padding: 6px;
+  font-size: 0.8em;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 500px;
+}
+
+#title-form {
+  align-items: flex-start;
+}
+
+.trybewarts-header-logo {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-right: 20px;
+  margin-left: 10px;
+}
+
+#part-one-form input {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+#part-one-form select {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+#textarea {
+  border-radius: 10px;
+}
